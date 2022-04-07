@@ -1,0 +1,165 @@
+h1, h2, h3, h4 {
+  font-family: Druk;
+  color: white; }
+
+a, p, input, label, span, small {
+  color: white;
+  font-family: Calibri;
+  font-size: 20px; }
+
+.nav-ul li > a {
+  color: white; }
+
+body {
+  background: black; }
+
+.header--row {
+  background: rgba(0, 0, 0, 0); }
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10; }
+
+#wpadminbar {
+  display: none; }
+
+#homeheader {
+  height: 90vh;
+  padding: 0; }
+
+.homeheader-text {
+  margin-top: 50vh;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  margin-left: auto;
+  margin-right: auto; }
+  .homeheader-text h1 {
+    color: #ECEB38; }
+
+@media screen and (min-width: 783px) {
+  .homeheader-text {
+    max-width: 75%; } }
+
+html {
+  position: relative; }
+
+@media screen and (max-width: 782px) {
+  html {
+    top: -46px !important;
+    height: calc(100% + 46px); } }
+
+@media screen and (min-width: 783px) {
+  html {
+    top: -32px !important;
+    height: calc(100% + 32px); } }
+
+.single-page-container {
+  max-width: 100%; }
+
+.n2_clear {
+  position: absolute;
+  top: 0;
+  z-index: -1; }
+  .n2_clear .n2-ow {
+    height: 90vh; }
+
+.neontext {
+  pointer-events: none; }
+  .neontext .wp-block-uagb-buttons-child, .neontext .uagb-button__wrapper {
+    height: 100%; }
+  .neontext .wp-block-uagb-buttons-child {
+    padding: 0 20px; }
+  .neontext .uagb-buttons__wrap {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr); }
+  .neontext .wp-block-button__link, .neontext .uagb-buttons-repeater {
+    text-align: center;
+    background: none;
+    border: 3px solid #EC6367;
+    color: #EC6367;
+    font-family: Druk;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(247, 183, 193, 0.91);
+    box-shadow: 0px 0px 20px 0px rgba(247, 183, 193, 0.91);
+    text-shadow: 0px 0px 40px rgba(247, 183, 193, 0.91);
+    -webkit-animation: glow 5s infinite;
+            animation: glow 5s infinite; }
+  .neontext .uagb-buttons-repeater {
+    height: 100%; }
+
+@-webkit-keyframes glow {
+  0% {
+    -webkit-box-shadow: 0px 0px 0 0px rgba(247, 183, 193, 0.91);
+    box-shadow: 0px 0px 0 0px rgba(247, 183, 193, 0.91);
+    text-shadow: 0px 0px 0 rgba(247, 183, 193, 0.91); }
+  50% {
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(247, 183, 193, 0.91);
+    box-shadow: 0px 0px 20px 0px rgba(247, 183, 193, 0.91);
+    text-shadow: 0px 0px 40px rgba(247, 183, 193, 0.91); }
+  100% {
+    -webkit-box-shadow: 0px 0px 0 0px rgba(247, 183, 193, 0.91);
+    box-shadow: 0px 0px 0 0px rgba(247, 183, 193, 0.91);
+    text-shadow: 0px 0px 0 rgba(247, 183, 193, 0.91); } }
+
+@keyframes glow {
+  0% {
+    -webkit-box-shadow: 0px 0px 0 0px rgba(247, 183, 193, 0.91);
+    box-shadow: 0px 0px 0 0px rgba(247, 183, 193, 0.91);
+    text-shadow: 0px 0px 0 rgba(247, 183, 193, 0.91); }
+  50% {
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(247, 183, 193, 0.91);
+    box-shadow: 0px 0px 20px 0px rgba(247, 183, 193, 0.91);
+    text-shadow: 0px 0px 40px rgba(247, 183, 193, 0.91); }
+  100% {
+    -webkit-box-shadow: 0px 0px 0 0px rgba(247, 183, 193, 0.91);
+    box-shadow: 0px 0px 0 0px rgba(247, 183, 193, 0.91);
+    text-shadow: 0px 0px 0 rgba(247, 183, 193, 0.91); } }
+
+.gradientimages {
+  position: relative; }
+  .gradientimages .wp-block-image, .gradientimages .wp-block-columns, .gradientimages .wp-block-column {
+    margin: 0 !important; }
+  .gradientimages:after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background-image: url(./../../../uploads/2022/04/Gradient-wipe.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left; }
+
+.rightside:after {
+  left: -1px; }
+
+.leftside:after {
+  right: -1px;
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg); }
+
+.uagb-section__inner-wrap {
+  max-width: 100% !important; }
+
+.wp-block-uagb-section:not(.leftpad, .rightpad), .nv-single-page-wrap:not(.leftpad, .rightpad) {
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+
+.vertaligntext {
+  height: 100%;
+  margin: auto; }
+
+.leftpad {
+  padding-left: 10% !important;
+  padding-right: 0 !important; }
+
+.rightpad {
+  padding-right: 10% !important;
+  padding-left: 0 !important; }
