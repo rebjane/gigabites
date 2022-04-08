@@ -217,6 +217,8 @@ input, textarea {
   padding: 0 20px; }
 
 .copyright {
+  text-align: center;
+  margin: 0;
   font-size: 12px; }
   .copyright span {
     font-size: 12px; }
@@ -260,3 +262,18 @@ input, textarea {
 
 #header-menu-sidebar-bg {
   background: black !important; }
+
+.thirtypad {
+  padding: 30px; }
+
+.nav-ul li.current-menu-item > a {
+  color: #EC6367 !important; }
+
+a {
+  cursor: pointer;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out; }
+  a:hover {
+    color: #EC6367 !important;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out; }
